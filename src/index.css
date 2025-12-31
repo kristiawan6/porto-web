@@ -1,8 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 body {
   margin: 0;
-  font-family: "Raleway", serif !important;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+  background: linear-gradient(135deg, 
+    hsl(260, 45%, 8%) 0%,
+    hsl(270, 50%, 12%) 25%,
+    hsl(280, 45%, 10%) 50%,
+    hsl(265, 48%, 9%) 75%,
+    hsl(255, 42%, 11%) 100%
+  );
+  background-attachment: fixed;
+  min-height: 100vh;
 }
